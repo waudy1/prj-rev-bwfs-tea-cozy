@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	font-family: helvetica;
+	color: seashell;
+	background: black;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	height: 69px;
+	background-color: black;
+	align-items: center;
+	border-bottom: 5px solid seashell;
+}
+
+.auto {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+	display: block;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+a {
+	color: seashell;
+	cursor: auto;
+	text-decoration: underline;
+}
+img {
+	height: 50px;
+	padding-left: 25px;
+}
+
+.love {
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: auto;
+	display: block;
+}
+
+.auto2 {
+	background-image: url(./images/lid.jpg);
+	height: 650px;
+	padding-top: 70px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.work {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+h2 {
+	margin: 0px;
+	padding: 15px;
+	display: block;
+	font-weight: bold;
+}
+
+h4 {
+	margin: 0px;
+	padding: 15px;
+	display: block;
+	font-weight: bold;
+}
+
+#store {
+	height: 700px;
+	width: 1000px;
+	padding-top: 70px;
+	margin: auto;
+	display: block;
+}
+
+.autoitems {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.items {
+	padding: 5px;
+	display: block;
+}
+
+.items2 {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+.items img {
+	height: 200px;
+	display: block;
+	margin: 10px;
+}
+
+#location {
+	background-image: url(./images/cup.jpg);
+	height: 600px;
+	padding-top: 70px;
+	padding-right: 20px
+	display: block;
+}	
+
+.locations {
+	width: 1100px;
+	margin: auto;
+	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.location {
+	opacity: 1;
+	background-color: black;
+	flex-basis: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	margin: 5px 20px;
+}
+
+h3	{
+	margin: 0px;
+	padding: 10px;
+	display: block;
+	font-weight: bold;
+}
+
+p {
+	display: block;
+}
+
+#contact {
+	height: 200px;
+	display: block;
+}
+
+h5 {
+	display: block;
+	font-weight: bold;
+}
+
+footer {
+	text-align: left;
+	padding-left: 20px;
+}
